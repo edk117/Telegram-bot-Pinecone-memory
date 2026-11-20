@@ -1,0 +1,21 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Kilo recovery state
+.kilo/agent-manager.json
+
+# OS-generated files
+.DS_Store
