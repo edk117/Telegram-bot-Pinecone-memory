@@ -16,6 +16,10 @@ htmlcov/
 
 # Local Kilo recovery state
 .kilo/agent-manager.json
+.kilo/kilo.jsonc
 
 # OS-generated files
 .DS_Store
+
+AGENTS.md
+PROJECT.md
